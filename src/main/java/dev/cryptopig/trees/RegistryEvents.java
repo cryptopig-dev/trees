@@ -20,7 +20,7 @@ public class RegistryEvents {
 
     private static final Logger log = LogManager.getLogger();
 
-    private static ResourceLocation REGISTRY_NAME = new ResourceLocation(TreesMod.MODID, "smartlog");
+    private static ResourceLocation REGISTRY_NAME = new ResourceLocation(TreesMod.MODID, "log");
 
     @SubscribeEvent
     public static void onBlocksRegistry(final RegistryEvent.Register<Block> event) {

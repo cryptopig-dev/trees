@@ -1,10 +1,19 @@
 {
   "variants": {
-    "on=true": {
+    "facing=north": {
       "model": "treesmod:block/log"
     },
-    "on=false": {
-      "model": "treesmod:block/log"
+    "facing=south": {
+      "model": "treesmod:block/log",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "treesmod:block/log",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "treesmod:block/log",
+      "y": 90
     }
   }
 }
