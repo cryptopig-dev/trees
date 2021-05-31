@@ -1,10 +1,10 @@
 {
-	"homepage": "https://cryptopig.dev/minecraft/treesmod",
+  "homepage": "https://cryptopig.dev/minecraft/treesmod",
   "1.15.2": {
     "v0.1.0": "init", 
   },
-	"promos": {
-		"1.15.2-recommended": "v0.1.0",
-		"1.15.2-latest": "v0.1.0",
-	}
+  "promos": {
+    "1.15.2-recommended": "v0.1.0",
+    "1.15.2-latest": "v0.1.0",
+  }
 }
