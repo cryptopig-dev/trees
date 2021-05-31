@@ -22,10 +22,11 @@ public class RegistryEvents {
 
     private static ResourceLocation REGISTRY_NAME = new ResourceLocation(TreesMod.MODID, "log");
 
+    private static final Block block = new Log(Block.Properties.create(Material.WOOD));
+
     @SubscribeEvent
     public static void onBlocksRegistry(final RegistryEvent.Register<Block> event) {
         // register a new block here
-        Block block = new Log(Block.Properties.create(Material.WOOD));
         block.setRegistryName(REGISTRY_NAME);
         event.getRegistry().register(block);
         log.info("OINK Registering Block {}", block);
@@ -33,7 +34,6 @@ public class RegistryEvents {
 
     @SubscribeEvent
     public static void onRegisterItems(RegistryEvent.Register<Item> event) {
-        Block block = new Log(Block.Properties.create(Material.WOOD));
         Item.Properties props = new Item.Properties();
         Item item = new BlockItem(block, props);
         item.setRegistryName(REGISTRY_NAME);
