@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "on=true": {
+      "model": "treesmod:block/log"
+    },
+    "on=false": {
+      "model": "treesmod:block/log"
+    }
+  }
+}

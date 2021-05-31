@@ -1,4 +1,4 @@
-build:
+build: 
 	@./gradlew build
 
 clean:
@@ -7,7 +7,8 @@ clean:
 deps:
 	@./gradlew --refresh-dependencies
 
-run:
+run: build
 	@./gradlew runClient
+
 
 .PHONY: build clean deps run
